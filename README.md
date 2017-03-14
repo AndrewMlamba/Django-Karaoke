@@ -4,18 +4,18 @@ We're going to put on a Karaoke party at our next Django conference and we need 
 
 Here are some details:
 
-`## Song model should:`
+## Song model should:
 * [ ] have a title
 * [ ] have an artist (original performer)
 * [ ] have a performer (who's singing it for karaoke) (make this another model)
 * [ ] have a length (number of seconds in duration)
 * [ ] return '<title> by <artist>' when turned into a string
   
-`## Performer model should:`
+## Performer model should:
 - [ ] have a name
 - [ ] return the name when turned into a string
   
-`## Views:`
+## Views:
 - [ ] list view, all of the songs
 - [ ] detail view, a particular song
     * tell who's performing it
@@ -27,5 +27,3 @@ Feel free to add other features, too, if you want. Like maybe the minutes:second
 You can check out the tests in songs/tests.py and run them with `python manage.py tests`.
 
 Good luck!
-
-<span style="background-color: #FFFF00">Marked text</span>
