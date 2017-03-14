@@ -9,7 +9,7 @@ Here are some details:
 * [ ] have an artist (original performer)
 * [ ] have a performer (who's singing it for karaoke) (make this another model)
 * [ ] have a length (number of seconds in duration)
-* [ ] return '<title> by <artist>' when turned into a string
+* [ ] return <title> by <artist> when turned into a string
   
 ## Performer model should:
 - [ ] have a name
