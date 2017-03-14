@@ -18,9 +18,9 @@ Here are some details:
 ## Views:
 - [ ] list view, all of the songs
 - [ ] detail view, a particular song
-    * tell who's performing it
+    * `tell who's performing it`
 - [ ] performer view, a particular performer
-    * list all of their songs
+    * `list all of their songs`
     
 Feel free to add other features, too, if you want. Like maybe the minutes:seconds version of how long the song is?
 
