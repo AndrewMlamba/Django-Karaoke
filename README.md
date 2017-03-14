@@ -5,11 +5,11 @@
 Here are some details:
 
 Song model should:
-- [ ] have a title
-- [ ] have an artist (original performer)
-- [ ] have a performer (who's singing it for karaoke) (make this another model)
-- [ ] have a length (number of seconds in duration)
-- [ ] return '<title> by <artist>' when turned into a string
+* [ ] have a title
+* [ ] have an artist (original performer)
+* [ ] have a performer (who's singing it for karaoke) (make this another model)
+* [ ] have a length (number of seconds in duration)
+* [ ] return '<title> by <artist>' when turned into a string
   
 Performer model should:
 - [ ] have a name
