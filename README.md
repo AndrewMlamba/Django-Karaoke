@@ -5,21 +5,21 @@ We're going to put on a Karaoke party at our next Django conference and we need 
 Here are some details:
 
 ## Song model should:
-* [ ] have a title
-* [ ] have an artist (original performer)
-* [ ] have a performer (who's singing it for karaoke) (make this another model)
-* [ ] have a length (number of seconds in duration)
-* [ ] return `'<title> by <artist>'` when turned into a string
+* [x] have a title
+* [x] have an artist (original performer)
+* [x] have a performer (who's singing it for karaoke) (make this another model)
+* [x] have a length (number of seconds in duration)
+* [x] return `'<title> by <artist>'` when turned into a string
   
 ## Performer model should:
-- [ ] have a name
-- [ ] return the name when turned into a string
+- [x] have a name
+- [x] return the name when turned into a string
   
 ## Views:
-- [ ] list view, all of the songs
-- [ ] detail view, a particular song
+- [x] list view, all of the songs
+- [x] detail view, a particular song
     * `tell who's performing it`
-- [ ] performer view, a particular performer
+- [x] performer view, a particular performer
     * `list all of their songs`
     
 Feel free to add other features, too, if you want. Like maybe the minutes:seconds version of how long the song is?
