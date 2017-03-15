@@ -17,3 +17,12 @@ def song_detail(request, pk):
         raise Http404()
     else:
         return render(request, 'songs/song_list.html', {'song': song})
+
+
+def performer_detail(request, pk):
+    try:
+        performer = Performer.objects.get(pk=pk)
+    except Performer.DoesNotExist:
+        raise Http404()
+    else:
+        return render(request, 'songs/performer_detail.html', {'performer': performer})
